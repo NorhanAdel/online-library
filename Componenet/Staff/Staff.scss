@@ -1,0 +1,129 @@
+.staff_page {
+  padding: 60px 0;
+
+  .staff_container {
+    h1 {
+      font-size: 25px;
+      margin: 10px 0;
+      color: var(--black-color);
+      font-weight: 500;
+      text-transform: uppercase;
+      word-spacing: 10px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      font-size: 13px;
+      color: var(--text);
+      margin-bottom: 20px;
+    }
+
+    .sub-heading {
+      width: 70px;
+      height: 2px;
+      background: var(--primary-color);
+      display: block;
+      position: absolute;
+      left: 47%;
+      border-radius: 20px;
+      margin-top: -9px;
+    }
+
+    .data {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+      margin-top: 100px;
+      margin-bottom: 100px;
+
+      @media screen and (max-width: 767px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .item {
+        aspect-ratio: 1/1;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 1.8;
+        color: var(--white-color);
+      }
+
+      .btn {
+        color: #000;
+        background: var(--white-color);
+        padding: 6px 10px;
+        font-size: 12px;
+      }
+
+      .item {
+        width: 100%;
+        text-align: center;
+        height: 250px;
+        img {
+          width: 100%;
+        }
+
+        .white {
+          width: 100%;
+          height: 100%;
+          background: rgb(195, 192, 192);
+          color: var(--white-color);
+          padding: 10px;
+
+          .info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            span {
+              color: var(--white-color);
+            }
+
+            svg {
+              fill: var(--white-color);
+              margin-right: 10px;
+              margin-bottom: 10px;
+            }
+          }
+        }
+
+        .orange {
+          width: 100%;
+          height: 100%;
+          background: orange;
+          color: var(--white-color);
+          padding: 10px;
+
+          .info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            span {
+              color: var(--white-color);
+            }
+
+            svg {
+              fill: var(--white-color);
+              margin-right: 10px;
+              margin-bottom: 10px;
+            }
+          }
+
+          p {
+            font-size: 12px;
+            line-height: 1.8;
+          }
+        }
+      }
+    }
+  }
+}

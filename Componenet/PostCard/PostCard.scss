@@ -1,0 +1,74 @@
+.postcard {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 15px;
+
+    svg {
+        font-size: 30px;
+        fill: var(--primary-color);
+        cursor: pointer;
+    }
+
+    .pepoleimg {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            width: 100px;
+            height: 40px;
+        }
+
+        .name {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+             margin-top: 5px;
+            color: var(--primary-color);
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+
+       
+    }
+
+    .postdesc {
+        margin: 15px 0 1px 0;
+        color: var(--black-color);
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .comments-container {
+        .commit {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 1rem;
+
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+
+            input {
+                border: 1px solid #ddd;
+                border-radius: 20px;
+                padding: 10px;
+                width: 300px;
+            }
+        }
+    }
+}

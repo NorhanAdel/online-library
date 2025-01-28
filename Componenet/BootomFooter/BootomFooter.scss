@@ -1,0 +1,26 @@
+.bottomfooter {
+  padding: 20px 0;
+  background-color: var(--black-color);
+  .bottomfootercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        font-size: 12px;
+    }
+    .bootomlink {
+      display: flex;
+      li {
+        a {
+          color: var(--text-color);
+          margin-right: 10px;
+          font-size: 15px;
+          transition: .3s;
+          &:hover{
+            color:var(--primary-color)
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+._sidebar1_wrapper {
+  width: 210px;
+  
+  padding-top: 20px;
+  .Sidebar1_container {
+    width:100%;
+    .items {
+      width:100%;
+      border-top: 0.5px solid;
+      border-color: #DEE2E7;
+        .sub-heading {
+        width: 50px;
+        height: 2px;
+        background: var(--primary-color);
+        display: block;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-top: -9px;
+      }
+     span{
+        color:var(--black-color);
+        transition: .3s;
+       &:hover{
+        color:var(--primary-color);
+       }
+     }
+      svg {
+        fill: #FF9017;
+        margin-left: 5px;
+        margin-top: -5px;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+        margin: 10px 0;
+        
+        color:var(--black-color)
+      }
+      ul {
+        padding-top: 10px;
+        li {
+          font-size:16px;
+          text-transform: capitalize;
+          font-weight:400;
+          margin-bottom: 10px;
+        cursor: pointer;
+     color:var(--black-color);
+     transition: .3s;
+       &:hover{
+        color:var(--primary-color);
+       }
+           
+        }
+      }
+      .range {
+        width: 100%;
+       
+      }
+      .condition {
+        padding-bottom: 20px;
+        a {
+          margin-left: 10px;
+          color:var(--black-color);
+       &:hover{
+        color:var(--primary-color);
+       }
+        }
+      }
+      .form {
+        padding-bottom: 30px;
+        .inputs_field {
+          display: flex;
+          width: 100%;
+          input {
+            width: 90%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            padding: 5px 0;
+            border: 0.8px solid rgba(0, 0, 0, 0.1);
+          }
+        }
+        button {
+          width: 94%;
+          background-color: #fff;
+          border: none;
+          color: blue;
+          padding: 5px 0;
+          border: 0.8px solid rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

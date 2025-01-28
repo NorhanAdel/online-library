@@ -1,0 +1,31 @@
+._recomended_container {
+  position: relative;
+
+  h1 {
+    font-size: 25px;
+    margin: 10px 0;
+    color: var(--black-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .sub-heading {
+    width: 70px;
+    height: 2px;
+    background: var(--primary-color);
+    display: block;
+    position: absolute;
+    left: 47%;
+    border-radius: 20px;
+    margin-top: -9px;
+  }
+
+  ._cards {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    ._card {}
+  }
+}
