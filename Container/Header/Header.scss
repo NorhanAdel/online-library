@@ -1,0 +1,24 @@
+._header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../Assets/River-inspired\ Japanese\ library\ becomes\ a\ favorite\ meeting\ point\ for\ kids.jfif");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(12, 12, 11, 0.769);
+  }
+
+  .searchpostion {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: -10%;
+  }
+}
